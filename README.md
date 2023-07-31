@@ -1,6 +1,6 @@
 # PHOTOSHOP NFT GENERATOR
 
-This script generates NFTs from a Photoshop file based on layer groups and traits.
+This script generates NFT art from a Photoshop file based on layer groups and traits.
 
 ![Screenshot](screenshots/opensea.png)
 
@@ -13,7 +13,7 @@ For example, you could have groups named "Background", "Watermark", and "Charact
 
 
 
-   The number #10 next to your layer name means there is a 10% chance that this trait value will be used. Making it #100 does not guarantee that this value is used. It is a good idea to first try out your collection generation and adjust rarity values accordingly. #0 would mean this trait is not used.
+`The number #10 next to your layer name means there is a 10% chance that this trait value will be used. Making it #100 does not guarantee that this value is used. It is a good idea to first try out your collection generation and adjust rarity values accordingly. #0 would mean this trait is not used.`
 
 ![Screenshot](screenshots/layers.png)
 
@@ -25,7 +25,7 @@ For example, you could have groups named "Background", "Watermark", and "Charact
 2. **Update Metadata Fields**
    In Photoshop, go to File -> Scripts -> Browse -> navigate to PHOTOSHOP NFT GENERATOR -> and select `UpdateMetadata.js`
 
-Your NFT collection will be created in the `/collection` directory. 
+`Your NFT collection will be created in the `/collection` directory. `
 
  
  ![Screenshot](screenshots/collection.png)
