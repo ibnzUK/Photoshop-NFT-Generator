@@ -1,4 +1,6 @@
-// #include "/json-polyfil.js";
+// Licence MIT
+// Developer IBNZUK 2023
+
 
 function main() {
   var continueConfirmation = confirm(
@@ -6,7 +8,7 @@ function main() {
   );
   if (!continueConfirmation) return;
   var prefix = prompt('What is your new metadata url "eg. https//myUrl.com/"', '');
-  var suffix = prompt('Your file format "eg. .png, gif, jpeg"', '');
+  var suffix = prompt('Your file format "eg .png, gif, jpeg"', '');
   var path = app.activeDocument.path;
   var f = new Folder(path + '/collection/metadata');
 

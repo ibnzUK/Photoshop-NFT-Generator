@@ -36,18 +36,18 @@ Your metadata structure will look similar to this:
 
 ```json
 {
-    "name": "BoredFlowers #1",
-    "description": "My Generated Collection",
+    "name": "My Collection #1",
+    "description": "My description goes HERE",
     "image": "https://myURL.com/1.png",
     "edition": 1,
     "attributes": [
         {
             "trait_type": "Character",
-            "value": "Flower"
+            "value": "Male"
         },
         {
             "trait_type": "Watermark",
-            "value": "Heart"
+            "value": "Waves"
         },
         {
             "trait_type": "Background",

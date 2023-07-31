@@ -1,19 +1,23 @@
+// Licence MIT
+// Developer IBNZUK 2023
+
 function main() {
   var continueConfirmation = confirm(
-    "You are about to use the HashLips art generator. Are you sure you want to continue?"
+    "Gm, Ready to create NFT collection?"
   );
 
   if (!continueConfirmation) return;
 
-  var supply = prompt("How many images do you want to generate?", "10");
+  var supply = prompt("How many NFT art pieces you want to create?", "10");
 
   var name = prompt("What is the name of your collection?", "");
 
   var description = prompt("What is the description for your collection?", "");
 
   alert(
+    " Generating " +
     supply +
-      " images will be generated, so sit back relax and enjoy the art being generated."
+      " NFTs, please wait...  " 
   );
 
   var groups = app.activeDocument.layerSets;
@@ -72,7 +76,7 @@ function main() {
     saveMetadata(obj);
     resetLayers(groups);
   }
-  alert("Generation process is complete.");
+  alert("Congratulations!! Your NFTs are ready!");
 }
 
 function resetLayers(_groups) {
