@@ -5,10 +5,13 @@ This script generates NFTs from a Photoshop file based on layer groups and trait
 ## Instructions
 
 1. Place your `.psd` file in the 'PHOTOSHOP NFT GENERATOR' folder. 
-2. Each attribute should be in a separate group of layers. For example, you could have groups named "Background", "Watermark", and "Character". 
+2. Each attribute should be in a separate group of layers. 
+For example, you could have groups named "Background", "Watermark", and "Character". 
 3. Within each group (attribute), each layer represents a different trait value. For instance, the "Background" group could have layers named "Green#10", "Blue#50", and "Premium#1". This would mean that your NFT could have traits such as 'Background - Green', etc.
 
    The number #10 next to your layer name means there is a 10% chance that this trait value will be used. Making it #100 does not guarantee that this value is used. It is a good idea to first try out your collection generation and adjust rarity values accordingly. #0 would mean this trait is not used.
+
+![Screenshot](Layers.png)
 
 ## Usage
 
@@ -45,3 +48,4 @@ Your metadata structure will look similar to this:
         }
     ]
 }
+  
