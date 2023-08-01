@@ -23,7 +23,13 @@ For example, you could have groups named "Background", "Watermark", and "Charact
    In Photoshop, go to File -> Scripts -> Browse -> navigate to PHOTOSHOP NFT GENERATOR -> and select `CreateNFTs.js`
 
 2. **Update Metadata Fields**
-   In Photoshop, go to File -> Scripts -> Browse -> navigate to PHOTOSHOP NFT GENERATOR -> and select `UpdateMetadata.js`
+
+* Open Photosho and go to File
+* Select Scripts
+* Select Browse
+* Navigate to PHOTOSHOP NFT GENERATOR
+* Select `UpdateMetadata.js` file to run
+
 
 `Your NFT collection will be created in the `/collection` directory. `
 
