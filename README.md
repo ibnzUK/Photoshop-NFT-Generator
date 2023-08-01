@@ -24,10 +24,10 @@ For example, you could have groups named "Background", "Watermark", and "Charact
 
 2. **Update Metadata Fields**
 
-* Open Photosho and go to File
+* Open Photoshop and go to File
 * Select Scripts
 * Select Browse
-* Navigate to PHOTOSHOP NFT GENERATOR
+* Navigate to PHOTOSHOP NFT GENERATOR folder 📁
 * Select `UpdateMetadata.js` file to run
 
 
