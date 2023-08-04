@@ -20,7 +20,12 @@ For example, you could have groups named "Background", "Watermark", and "Charact
 ## Usage
 
 1. **Generate NFT Images from Photoshop**
-   In Photoshop, go to File -> Scripts -> Browse -> navigate to PHOTOSHOP NFT GENERATOR -> and select `CreateNFTs.js`
+
+* Open Photoshop and go to File
+* Select Scripts
+* Select Browse
+* Navigate to PHOTOSHOP NFT GENERATOR folder 📁
+* Select `CreateNFTs.js` file to run
 
 2. **Update Metadata Fields**
 
